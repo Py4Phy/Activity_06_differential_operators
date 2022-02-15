@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Test: Problem difference operators / Dfd",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_difference_operators/test_Dfd.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test: Problem difference operators / Dcd",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_difference_operators/test_Dcd.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test: Problem difference operators / Ded",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_difference_operators/test_Ded.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Test: Problem error analysis / error function",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_error_analysis/test_error_function.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
